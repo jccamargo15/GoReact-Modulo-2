@@ -40,6 +40,7 @@ export const Repository = styled.div`
 
   ul {
     list-style: none;
+    border-bottom: 1px solid #f5f5f5;
 
     li {
       font-weight: bold;
@@ -55,6 +56,29 @@ export const Repository = styled.div`
       &:nth-child(2n - 1) {
         background: #f5f5f5;
       }
+    }
+  }
+`;
+
+export const Buttons = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  button {
+    width: 100px;
+    height: 30px;
+    padding: 0 20px;
+    margin: 10px 0;
+    background: #9b65e6;
+    color: #fff;
+    border: 0;
+    /* font-size: 20px; */
+    font-weight: bold;
+    border-radius: 3px;
+
+    &:hover {
+      background: #7e3adf;
     }
   }
 `;
